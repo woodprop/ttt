@@ -1,0 +1,11 @@
+@import "../node_modules/reset-css/sass/reset";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+
+@import "abstract/variables";
+@import "abstract/mixins";
+
+@import "base/base";
+
+@import "components/game";
