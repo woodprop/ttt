@@ -10,20 +10,43 @@
 
     <main>
         <div class="game">
-            <div class="game__turn"></div>
-            <div class="game__menu"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__square"></div>
-            <div class="game__score"></div>
-            <div class="game__score"></div>
-            <div class="game__score"></div>
+            <!-- Turn-->
+            <div class="game__turn">
+                <i class="fa-solid fa-x color-player-1"></i>
+                <p class="color-player-1">Player 1, you're up!</p>
+            </div>
+            <!-- Dropdown menu-->
+            <div class="menu game__menu">
+                <button class="menu__button">Actions<i class="fa-solid fa-chevron-down"></i></button>
+
+                <div class="menu__items hidden">
+                    <button class="menu__item-btn">Reset</button>
+                    <button class="menu__item-btn">New round</button>
+                </div>
+            </div>
+            <!-- Game field-->
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <div class="game__square shadow"></div>
+            <!-- Score-->
+            <div class="game__score game__score_player-1 shadow">
+                <p>Player 1</p>
+                <span>0 Wins</span>
+            </div>
+            <div class="game__score game__score_ties shadow">
+                <p>Ties</p>
+                <span>0 ties</span>
+            </div>
+            <div class="game__score game__score_player-2 shadow">
+                <p>Player 1</p>
+                <span>0 Wins</span>
+            </div>
         </div>
     </main>
 
