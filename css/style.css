@@ -183,4 +183,21 @@ body {
   background-color: rgba(211, 211, 211, 0.07);
 }
 
+footer {
+  color: white;
+  margin-top: 50px;
+}
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #f2b147;
+}
+footer a:last-child {
+  color: #3cc4bf;
+}
+
 /*# sourceMappingURL=style.css.map */

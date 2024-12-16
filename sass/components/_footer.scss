@@ -1,0 +1,19 @@
+footer {
+  color: white;
+  margin-top: 50px;
+}
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer {
+  a {
+    color: $color-additional-secondary;
+    &:last-child {
+      color: $color-additional-primary;
+    }
+  }
+
+}
