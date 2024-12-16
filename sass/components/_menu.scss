@@ -16,3 +16,23 @@
         //ToDo refactor colors
     }
 }
+
+.menu__items {
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    right: 0;
+    background-color: #203139;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.menu__item-btn {
+    background-color: transparent;
+    padding: 8px;
+    color: white;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
